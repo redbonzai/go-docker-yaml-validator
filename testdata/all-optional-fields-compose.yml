@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  web:
+    image: nginx
+    environment:
+      - FOO=bar
+    ports:
+      - "80:80"
+    volumes:
+      - /var/lib/mysql
+    networks:
+      - my-network
+networks:
+  my-network:
+    driver: bridge

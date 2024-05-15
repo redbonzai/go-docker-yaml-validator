@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  web:
+    image: nginx
+    ports:
+      - "80:80"
+  invalid_field: should_fail
