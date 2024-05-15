@@ -1,4 +1,4 @@
-module github.com/redbonzai/docker-compose-validate-go
+module github.com/redbonzai/go-docker-yaml-validator
 
 go 1.22.1
 

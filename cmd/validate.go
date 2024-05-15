@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/redbonzai/docker-compose-validate-go/internal/validator"
+	"github.com/redbonzai/go-docker-yaml-validator/internal/validator"
 	"github.com/spf13/cobra"
 )
 
