@@ -1,6 +1,6 @@
 module github.com/redbonzai/go-docker-yaml-validator
 
-go 1.22.1
+go 1.20.14
 
 require (
 	github.com/spf13/cobra v1.8.0
